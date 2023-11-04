@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "/pb";
+
+service StackService {
+    rpc Push(PushServiceRequest) returns (PushServiceReply) {}
+    rpc Pop(PopServiceRequest) returns (PopServiceReply) {}
+}
+
+message PushServiceRequest {
+    int32 number = 1;
+}
+
+message PushServiceReply {
+    int32 size = 2;
+}
+
+message PopServiceRequest {
+    int32 number = 3;
+}
+
+message PopServiceReply {
+    int32 number = 4;
+    bool empty = 5;
+}
