@@ -2,6 +2,12 @@
 
 Sandbox project for discovering GRPC
 
+## TODO
+
+* Use a separate container for the build
+* Optimize container size
+* Plug a GUI (Giu)
+
 ## Usage
 
 Help
@@ -59,4 +65,16 @@ Build the project (binary : build/stack)
 
 ```sh
 make build
+```
+
+Create container
+
+```sh
+make container
+```
+
+Start container
+
+```sh
+make run
 ```
