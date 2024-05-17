@@ -1,5 +1,7 @@
 # GRPC Stack
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/9illes/grpc-stack.svg)](https://pkg.go.dev/github.com/9illes/grpc-stack)
+
 Sandbox project for discovering GRPC
 
 ## TODO
