@@ -3,10 +3,10 @@ package stack
 import (
 	"context"
 	"fmt"
-	"grpc-stack/pb"
 	"log"
 	"net"
 
+	"github.com/9illes/grpc-stack/pb"
 	"google.golang.org/grpc"
 )
 

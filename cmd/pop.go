@@ -2,10 +2,11 @@ package cmd
 
 import (
 	"context"
-	"grpc-stack/internal/stack"
-	"grpc-stack/pb"
 	"log"
 
+	"github.com/9illes/grpc-stack/internal/stack"
+
+	"github.com/9illes/grpc-stack/pb"
 	"github.com/spf13/cobra"
 )
 

@@ -1,4 +1,4 @@
-module grpc-stack
+module github.com/9illes/grpc-stack
 
 go 1.21.3
 

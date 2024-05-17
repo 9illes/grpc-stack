@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"grpc-stack/internal/stack"
+	"github.com/9illes/grpc-stack/internal/stack"
 
 	"github.com/spf13/cobra"
 )
